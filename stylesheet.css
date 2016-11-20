@@ -1,0 +1,174 @@
+/*General format*/
+.navigation {
+    display:inline-block;
+    float:center;
+    font-family: brown, aperçu, sans-serif;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    width: 100px;
+    height: 16px;
+    background-color:#7C7C7F;
+    border-radius:12px;
+    transition: .5s;
+}
+
+ul.navigation li:hover {
+    background-color: #546A7B;
+    width: 105px;
+}
+
+.navigation a:link {
+    color:white;
+}
+
+.navigation a:visited {
+    color:white;
+}
+
+body {
+    background-color:white;
+    text-align: center;
+}
+
+h1 {
+    text-align:center;
+    font-size:60px; 
+    font-family:brandon-grotesque, sans-serif;
+    color: #546A7B;
+}
+
+p {
+    font-size: 14px;
+    font-family:brown, aperçu, sans-serif;
+    line-height: 15px;
+}
+
+/*Home page*/
+h2 {
+    color:white;
+    font-size: 25px;
+    font-family:brown, aperçu, sans-serif;
+    background-color:#546A7B;
+    font-weight: bold;
+    padding:3px;
+}
+
+.info body > div {
+    text-align: center;
+}
+
+.blocks {
+    border: 3px solid #C3DCE0;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    width: 320px;
+    height: 475px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+a:link {
+    text-decoration: none;
+    color:cadetblue;
+}
+
+a:visited {
+    text-decoration: none;
+    color:coral;
+}
+
+.info ul {
+    text-align:left;
+    font-family:brown, aperçu, sans-serif;
+    font-size: 14px;
+}
+
+.info li {
+    line-height: 15px;
+}
+
+/*Care page*/
+.care {
+    height: 390px;
+    width: 380px;
+    padding: 3px;
+    margin: 3px;
+    border: 3px solid #C3DCE0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.care-travel {
+    text-align: left;
+}
+
+.travel {
+    text-align: left;
+    font-size: 14px;
+    font-family:brown, aperçu, sans-serif;
+    line-height: 15px;
+}
+
+/*Health page*/
+.head {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.b2 {
+    border:2px #C3DCE0 solid;
+    width:1000px;
+    margin:auto;
+    padding:2px 5px;
+    margin-bottom: 15px;
+}
+
+.prob {
+    width:300px;
+    display:inline-block;
+    margin:auto;
+    margin:13px;
+    vertical-align: top;
+}
+
+.break {
+    height:50px;
+}
+
+.head2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.neuter1 {
+    width:450px;
+    display:inline-block;
+    vertical-align: top;
+    padding:5px;
+}
+
+.neuter {
+    text-align:left;
+    font-size: 14px;
+    font-family:brown, aperçu, sans-serif;
+    line-height: 18px;
+}
+
+/*Gallery page*/
+.img-block {
+    margin:auto;
+}
+
+.img {
+    vertical-align: top;
+    display: inline-block;
+    width:200px;
+    height:275px;
+    margin:auto;
+    padding: 10px;
+}
